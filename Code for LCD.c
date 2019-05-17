@@ -22,7 +22,13 @@ int main(void)
 	send_command(0x38); // 16*2 line LCD
 	send_command(0x0E); // screen and cursor ON
 	// Data to print
-	send_character(0x4C);
+	send_character(0x72);
+	send_character(0x61);
+	send_character(0x7a);
+	send_character(0x65);
+	send_character(0x65);
+	send_character(0x6e);
+	
 	
 }
 	void send_command(unsigned char command)
